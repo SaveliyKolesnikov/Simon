@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Game Simon. Developed by Saveliy Kolesnikov">
+    <meta name="description" content="Game Simon. Developed by Saveliy Kolesnikov">
+    <meta name="author" content="Kolesnikov Saveliy Andreevich, s.koles33@gmail.com">
+    <meta name="copyright" content="Kolesnikov inc">
+
+    <link rel="icon" href="simon_icon.png">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+<div id="game-window">
+    <div class="button" id="btn-1" data-sound-src="sounds/btn-1.mp3"></div>
+    <div class="button" id="btn-2" data-sound-src="sounds/btn-2.mp3"></div>
+    <div class="button" id="btn-3" data-sound-src="sounds/btn-3.mp3"></div>
+    <div class="button" id="btn-4" data-sound-src="sounds/btn-4.mp3"></div>
+    <div class="user-menu">
+        <h1 id="output">Press To Start</h1>
+    </div>
+</div>
+
+<audio id="victory-sound" src="sounds/victory.mp3"></audio>
+<audio id="mistake-sound" src="sounds/mistake.mp3"></audio>
+<script src="js/app.min.js"></script>
+</body>
+</html>
